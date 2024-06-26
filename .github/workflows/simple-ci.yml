@@ -23,7 +23,7 @@ jobs:
         run: echo "Bybye, world !"
 
   tata:
-    needs: toto
+    needs: [toto,tutu]
     runs-on: ubuntu-latest
 
     steps:
