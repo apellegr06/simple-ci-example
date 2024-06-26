@@ -21,3 +21,12 @@ jobs:
 
       - name: Run a one-line script
         run: echo "Bybye, world !"
+
+  tata:
+    needs: toto
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Run a one-line script
+        run: echo "Bybye, world !"
