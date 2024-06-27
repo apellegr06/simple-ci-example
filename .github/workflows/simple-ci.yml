@@ -9,3 +9,7 @@ jobs:
     with:
       name: alain
       description: pellegrino
+
+  tete:
+    uses: ./.github/actions/action1.yml
+    
