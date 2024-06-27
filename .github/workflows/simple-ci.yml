@@ -8,12 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - name: call reusable
-        uses: apellegr06/reusable-ci-example/.github/workflows/main.yml@main
-        with:
-          name: alain
-          description: pellegrino
-  
       - name: action
         uses: ./.github/actions/action1.yml
     
