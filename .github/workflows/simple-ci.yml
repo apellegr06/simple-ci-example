@@ -12,7 +12,8 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: apellegr06/reusable-ci-example
+          path: .
           
       - name: action
-        uses : ./reusable-ci-example/.github/actions
+        uses : ./.github/actions
     
