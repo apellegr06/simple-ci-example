@@ -5,3 +5,4 @@ runs:
   steps:
     - name: "echo toto"
       run: echo "toto"
+      shell: bash
