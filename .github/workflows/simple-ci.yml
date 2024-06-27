@@ -9,5 +9,5 @@ jobs:
     
     steps:
       - name: action
-        uses: ./.github/actions/action1.yml
+        uses: ./.github/actions
     
